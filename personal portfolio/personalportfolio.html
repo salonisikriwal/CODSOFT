@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(20, 1, 36);
+        color: bisque;
+        font-family: "poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(31, 1, 51);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: beige;
+      }
+      nav ul li a:hover {
+        color: darkseagreen;
+        font-size: 1.04rem;
+      }
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: normal;
+        margin: 80px 0;
+      }
+      firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: large;
+        margin: 70px 0;
+      }
+      .rightSection img {
+        width: 30%;
+      }
+      .purple {
+        color: rgb(216, 238, 21);
+      }
+      #element {
+        color: rgb(216, 238, 21);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: #9c97f1;
+        width: 77vw;
+        height: 2px;
+        margin: 120px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: #9c97f1;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top:90px;
+        width: 150px;
+      }
+      .vertical-desc{
+        position: relative;
+        top: 170px;
+        color:chocolate;
+        width: 190px;
+        font-size:x-small;
+      }
+      .footer{
+        background-color: rgb(37, 24, 73);
+        height: 103px;
+        display: flex;
+        padding: 23px 123px;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Saloni's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">ABOUT</a></li>
+            <li><a href="/">SERVICES</a></li>
+            <li><a href="/">PROJECTS</a></li>
+            <li><a href="/">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! My name is <span class="purple">Saloni Sikriwal</span>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I am a student at Sharda University and &nbsp;&nbsp;&nbsp;a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passionate learner.
+          </div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="element"></span></div>
+        </div>
+        <div class="rightSection">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="saloni.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">&nbsp;&nbsp;&nbsp; What I have done so far ?</span>
+        <h1>Experiences</h1>
+
+        <div class="box">
+          <div class="vertical"></div>
+          <img class="image-top" src="download1.jpeg" alt="" />
+          <div class="vertical-title">PYTHON PROGRAMMER</div>
+          <div class="vertical-desc">
+            I have been offered an internship at CODSOFT as a Web Developer Intern
+            I have achieved Certificates after the completion of the tasks
+          </div>
+          <div class="vertical"></div>
+          <img class="image-top" src="p1.jpg" alt="" />
+          <div class="vertical-title">WEB DEVELOPER</div>
+          <div class="vertical-desc">
+            I have made one website known as AMAH (automatic medical application handler)in which I had used Python and html css
+          </div> 
+          <div class="vertical"></div>
+          <img class="image-top" src="download.png" alt="" />
+          <div class="vertical-title">LEARNER</div>
+          <div class="vertical-desc">
+            Fast Learner
+            Focused and Sincere towards my work
+            Had a knowledge on Time Management
+            Curious to learn a new skill
+            Always Implement practical innovative solutions
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Saloni's Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <div class="text-center">www.salonisportfolio com
+        </div>
+        <div class="footer-third"></div>
+        <div class="footer-fourth"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Learner", "video Editor", "&amp; A Web developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
